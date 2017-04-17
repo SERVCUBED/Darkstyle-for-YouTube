@@ -3,8 +3,10 @@
 // @namespace     http://userstyles.org
 // @description	  A dark theme for YouTube
 // @author        Nass O & Ben Blain
-// @homepage      https://github.com/SERVCUBED/
+// @homepage      https://github.com/SERVCUBED/Darkstyle-for-YouTube
 // @include       *youtube.com/*
+// @updateURL     https://github.com/SERVCUBED/Darkstyle-for-YouTube/raw/master/darkstyle.user.js
+// @downloadURL   https://github.com/SERVCUBED/Darkstyle-for-YouTube/raw/master/darkstyle.user.js
 // @run-at        document-start
 // @version       4.0.0
 // ==/UserScript==
