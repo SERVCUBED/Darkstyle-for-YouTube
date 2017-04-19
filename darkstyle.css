@@ -1,7 +1,7 @@
 /* 
  * @name	DarkStyle for YouTube
  * @author  Nass O & Ben Blain
- * @version 4.0.0
+ * @version 4.0.1
  * @match   youtube.com
  */
 
@@ -353,7 +353,10 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-
 
 
 .comment-simplebox-text:focus {
-    border-color: #323232;
+	border: none !important;
+}
+.comment-simplebox-frame {
+    border-color: #323232 !important;
 }
 ::selection {
     background: #B6B6B6;
@@ -439,8 +442,8 @@ a,.branded-page-module-title a:visited, .branded-page-module-title a,.branded-pa
 
 .comment-simplebox-text {
     background-color: #121212!important;
-    border: 1px solid #2E2E2E;
-    color: #b6b6b6;
+    border: none !important;
+    color: #b6b6b6 !important;
 }
 .comment-simplebox-arrow {
     height: 12px;
@@ -549,10 +552,10 @@ dislike-button:before, .like-button-renderer-dislike-button:before {
 
  /* Arrow 2 */
  .yt-uix-clickcard-card-reverse .yt-uix-card-body-arrow-vertical, .yt-uix-hovercard-card-reverse .yt-uix-card-body-arrow-vertical {
-    border-bottom-color: #131313;
+    border-bottom-color: #131313 !important;
 }
 .yt-uix-clickcard-card-reverse .yt-uix-card-border-arrow-vertical, .yt-uix-hovercard-card-reverse .yt-uix-card-border-arrow-vertical {
-    border-bottom-color: #2E2E2E;
+    border-bottom-color: #2E2E2E !important;
     }
 
  /* Footer */
@@ -723,15 +726,24 @@ span.yt-uix-form-input-select.privacy-select, select {
 }
 
 /* Hovercard */
-.yt-uix-hovercard-card-content,.yt-uix-clickcard-card-border, .yt-uix-hovercard-card-border {
+.yt-uix-hovercard-card-content,.yt-uix-clickcard-card-border, .yt-uix-hovercard-card-border, #yt-masthead-notifications-content {
     background: #131313!important;
     color: #c5c5c5!important;
 }
 .yt-uix-hovercard-card p:first-of-type {
     color: #b6b6b6;
 }
+#yt-masthead-notifications-content .item-section > li > .yt-lockup-tile, #yt-masthead-notifications-content .yt-ui-ellipsis {
+    background: none !important;
+}
+#yt-masthead-notifications-content .item-section > li > .yt-lockup-tile:hover, #yt-masthead-notifications-content .yt-lockup-tile:hover .yt-ui-ellipsis {
+    background: #0d0d0d !important
+}
+.yt-uix-clickcard-card-body, .yt-uix-hovercard-card-body {
+	color: #555 !important;
+}
 .yt-uix-clickcard-card-border, .yt-uix-hovercard-card-border {
-    border: 1px solid #222;
+    border: 1px solid #222 !important;
 }
 .yt-uix-clickcard-card-flip .yt-uix-card-body-arrow-horizontal, .yt-uix-hovercard-card-flip .yt-uix-card-body-arrow-horizontal {
     border-right-color: #131313;
