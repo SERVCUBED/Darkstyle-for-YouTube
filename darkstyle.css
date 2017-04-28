@@ -855,7 +855,7 @@ button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.yt-uix-but
     border-bottom: 1px solid #1A1A1A !important;
 }
 .analytics-sparkline-card:hover {
-    background: rgb(15, 15, 15);
+    background: rgb(15, 15, 15) !important;
 }
 .video-list-item a:hover,.dashboard-widget-footer .dashboard-widget-view-all-link:hover {
     background: #222222 !important;
@@ -970,10 +970,10 @@ td.tb-layout-menu-links-list {
     color: #D4D4D4!important;
 }
 .yt-masthead-account-picker-option,.yt-masthead-account-picker-option:hover {
-    background: #0f0f0f;
+    background: #0f0f0f !important;
 }
 .yt-masthead-picker-footer {
-    background: #0D0D0D;
+    background: #0D0D0D !important;
 }
 
 /* Fix for Magic Actions */
